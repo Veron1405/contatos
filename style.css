@@ -1,0 +1,112 @@
+
+body{
+    text-align: center;
+   margin: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input, button{
+    padding: 10px;
+}
+
+form input {
+    margin: 0 20px;
+}
+
+ul {
+    list-style: none;
+} 
+
+li{
+    margin-bottom: 10px;
+}
+
+.botoes button {
+    margin: 0 15px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contato-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#contato-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contato-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+}
+
+#contato-form button:hover {
+    background-color: #2980b9;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.botoes button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    background-color: #27ae60;
+}
+
+#contato-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contato-lista li {
+    margin-bottom: 10px;
+}
+
+textarea {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#comentario {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
